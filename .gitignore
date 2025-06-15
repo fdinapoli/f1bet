@@ -22,3 +22,19 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IntelliJ IDEA
+.idea/
+
+# Maven wrapper
+.mvn/
+.mvn/wrapper/
+mvnw
+mvnw.cmd
+
+
+# Compiled output
+target/
+
+# Git attributes file (optional if you don’t want to track it)
+.gitattributes

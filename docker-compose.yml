@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: f1bet-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: f1bet
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: X9tLp$4nMw2qBv7sE3gZkYuC
+    ports:
+      - "5445:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
